@@ -1,0 +1,32 @@
+{
+	"name": "CosmosDbSqlApiCollection1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDb1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"Main Director": {
+					"type": "string"
+				},
+				"mycols": {
+					"type": "string"
+				},
+				"Rating": {
+					"type": "string"
+				},
+				"Title": {
+					"type": "string"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "movies_test"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
