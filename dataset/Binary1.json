@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "test_dir2",
+				"fileName": "synapse_test.txt",
+				"folderPath": "test_dir",
 				"fileSystem": "synapse"
 			}
 		}
