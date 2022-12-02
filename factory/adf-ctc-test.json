@@ -1,0 +1,9 @@
+{
+	"name": "adf-ctc-test",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9ace96d6-8477-4905-8c5f-7ffa36d0c482",
+		"tenantId": "cf36141c-ddd7-45a7-b073-111f66d0b30c"
+	}
+}
